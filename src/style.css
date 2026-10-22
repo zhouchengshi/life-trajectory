@@ -1,0 +1,44 @@
+:root {
+  --ink: #e9f1ff;
+  --ink-dim: #93a7cc;
+  --ink-faint: #5d6f92;
+  --line: rgba(150, 180, 240, 0.18);
+  --glass: rgba(10, 18, 40, 0.42);
+  --accent: #9fc6ff;
+  --gold: #ffd9a0;
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #05070f;
+  color: var(--ink);
+  font-family: 'PingFang SC', 'Microsoft YaHei', 'Hiragino Sans GB', system-ui, -apple-system, sans-serif;
+  overflow: hidden;
+  -webkit-font-smoothing: antialiased;
+  user-select: none;
+}
+
+button {
+  font-family: inherit;
+  color: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+  padding: 0;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
